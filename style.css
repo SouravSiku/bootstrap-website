@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500 !important;
+    margin-right: 2vw;
+}
+
+nav>div>a>img:hover {
+    transform: rotateX(-50deg);
+    transform: rotateY(70deg);
+    font-weight: bolder;
+}
+
+.carousel-item img {
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 55vw !important;
+}
+
+.col-12>h3>span:hover {
+    font-size: 32px;
+    font-weight: bolder;
+}
